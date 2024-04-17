@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+	<!--Beans Configuration-->
+
+	<!-- bean definitions here -->
+
+	<bean id="Phones" class="com.app.amazon.Products">
+		<constructor-arg value="8805005169" />
+		<constructor-arg> 
+			<map> 
+				<entry key="Iphone 11" value="55099"/>
+				<entry key="Iphone 11 Pro" value="62099"/>
+				<entry key="Iphone 12" value="65999"/>
+				<entry key="Iphone 12 Pro" value="72099"/>
+				<entry key="Iphone 13" value="72099"/>
+				<entry key="Iphone 13 Pro" value="72099"/>
+			</map>
+		</constructor-arg>
+		<constructor-arg value="72099" />
+		<constructor-arg value="true" />
+	</bean>
+</beans>
